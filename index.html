@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> AP CSP Portfolio Unit 6 </title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
+
+    </head>
+
+<body>
+    <div id="container">
+        <div id="title">
+            <h1> APCSP Chapter 6 Portfolio </h1>
+        </div>
+        <div id="content">
+            <div>
+                <h2 class="subunit"> 6.2 - Internet: Basic Concepts and Terminology  </h2>
+                <div class="questionAnswer">
+                    <h3 class="question">1. What is bandwidth? What do you think affects the differences in bandwidth globally as well as in different locations in the U.S.?</h2>
+                    <p class="answer"> Bandwidth is the rate at which data are downloaded or uploaded in a network. I think the economy or wealth of a country, state, or city affects the differences in bandwidth globally and in different parts of the U.S. as well as the difference in income an individual make. Some countries my not be able to afford faster internet than other countries and some households cannot afford better internet or any internet access at all than other households. </p>
+                    <h3 class="question">2. What is latency? How does it differ from bandwidth? Why is it a useful measure?</h2>
+                    <p class="answer">Latency is a measure of the trime it takes a piece of data to reach its destination. This is different from bandwidth as latency focuses on the delay it takes to reach a destination like a website, domain, or individual, while bandwidth focuses on how fast one can download or upload a file/data. Latency is a useful measure as it can determine if the quality of a network or help diagnose issues dealing with slow internet responsiveness.</p>
+                    <h3 class="question">3. What is the digital divide? What are some ways to reduce the effects of the digital divide?</h2>
+                        <p class="answer">The digital divide is the divide between people with internet access and those who do not have access to the internet. Some ways to reduce the effects of the digital divide is to provide more variety of Internet Service Providers, make internet subscriptions cheaper, give benefits to low-income households providing them with access to the internet, etc.</p>
+                </div>
+                
+            </div>
+            <div>
+                <h2 class="subunit"> 6.3 - Internet Architecture and Packet Switching </h2>
+                <div class="questionAnswer">
+                        <h3 class="question">1. (POGIL Activity 1) How does the geographical distance between the source and destination hosts on a network affect latency?</h2>
+                        <p class="answer"> Geographical distance between the sources and destination hosts on a network affect latency due to distance a signal needs to travel, for example if there is a long distance to travel there will be more latency as the time it takes for that message or data to be received will take longer.</p>
+                        <h3 class="question">2. What are the benefits of packet switching?</h2>
+                        <p class="answer"> Packet switching is a decentralized network with mulktiple paths between points A and B. It provides robustness in the network design. </p>
+                        <h3 class="question">3. (POGIL Activity 2) Missing Packets. What should happen if a packet goes missing? Who (which layer) would handle this? What action would they have to take? And what additional information would be needed in the packet in order to handle it?</h2>
+                        <p class="answer">The transport layer would handle the missing packet by requesting another one, or skipping the packet if there is no header.</p>
+                        <h3 class="question">4. (POGIL Activity 2) Security/Privacy. As the packets are being transmitted through the network, can people other than the sender and receiver read the messages? What methods can we use to protect the message?</h2>
+                        <p class="answer">Other people can read it and steal that information. We can use encryption to protect the messages even if people on the internet steal the information, they won’t be able to read it.</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="subunit"> 6.4 - I.P. Addresses and Domain Names  </h2>
+                <div class="questionAnswer">
+                        <h3 class="question">1. What is DNS and how does it work? How does DNS help you connect to a web server like Amazon?</h2>
+                        <p class="answer"> DNS is short for Domain Name Service, it functions by using the domain name of something and finding the ip address that correspond to that domain name to allow communication between the client and desired domain. It helps us connect to a web server like Amazon by translating the domain name into ip addresses, allowing the user to reach Amazon.</p>
+                        <h3 class="question">2. Include a screenshot of your message log in the DNS Simulation app in Activity 1.</h2>
+                        <p class="answer"> <img class="image" src="Images/answerImg1.jpg"> </p>
+                    </div>
+            </div>
+            <div>
+                <h2 class="subunit"> 6.5 - Caeser Cipher App  </h2>
+                <div class="questionAnswer">
+                        <h3 class="question">1. Post a screenshot of your code for the caesarDecrypt function.</h2>
+                        <p class="answer indent"> <img src="Images/answerImg2.jpg">i </p>
+                        <h3 class="question">2. Explain the difference between a function and a procedure. Give an example of a function.</h2>
+                        <p class="answer"> A function is found within a procedure that carries out a set of instruction that is meant to result in a specific goal. While a procedure only carries out a set of instructions based off what it is programmed to do. An example of a function is a drawSquare function that creates a square, by having a pen draw four sides while turning 90 degrees 1 time each side.</p>
+                        <h3 class="question">3. Explain the difference between global and local variables. Why are local variables easier to debug than global variables?</h2>
+                        <p class="answer"> Global variables work with all code, while local variable only works for a specific code or function. Locol variables are easier to debug than global variables because they are easy to find as they are within one function or code, rather having to look through the entier program. </p>
+                    </div>
+            </div>
+            <div>
+                <h2 class="subunit"> 6.6 - Cryptography Basics </h2>
+                <div class="questionAnswer">
+                        <h3 class="question">1. Explain briefly how the following substitution ciphers can be broken: Caesar cipher, Simple substitution cipher, Vigenere cipher.</h2>
+                        <p class="answer"> The Caesar cipher can be broken by shifting the letters of the alphabet from an increment of one to twenty-five. Simple substitution ciphers can be broken by using frequency analysis to determine where the shift is occuring. Vigenere cipher can be broken through analyzing all the repeating letters that are grouped, how far appart each other are.</p>
+                        <h3 class="question">2. Define symmetric encryption.</h2>
+                        <p class="answer"> A symmetric encryption uses the same key for both encrption and decryption.</p>
+                    </div>
+            </div>
+            <div>
+                <h2 class="subunit"> 6.7 - Cryptography: Securing The Internet </h2>
+                <div class="questionAnswer">
+                        <h3 class="question">1. Explain in your own words how public key encryption is not symmetric.</h2>
+                        <p class="answer"> Public key encryption is not symmetric as it uses two parts of the same key, a public key and a private key the individual has. There is more than one key therefore it is not symmetric.</p>
+                        <h3 class="question">2. Cryptography relies on open standards - a protocol or standard that is publicly available. Why are open standards necessary?</h2>
+                        <p class="answer"> Open standards are necessary as it allows users to explore the vast internet, without it access with the internet would be limited, for example HTTP allows the user to connect with a website or domain.</p>
+                    </div>
+            </div>
+            <div>
+                <h2 class="subunit"> 6.8 - Debugging Caeser Cipher </h2>
+                <div class="questionAnswer">
+                        <h3 class="question">1. For each of the 5 bugs in the Caesar Cipher app, explain what the bug was, how to fix it, and the type of error (semantic or syntax). If you wish, you can take a picture of your corrected blocks and then annotate it to identify and describe the bugs you fixed.</h2>
+                        <p class="answer"> First error: The button Encrypt should set the text to TextBoxCiphertext, not TextBoxPlaintext. This is a semantic error <br> Second Error: Within the caesarDecrypt function, the forloop is supposed to go to the length of the cipher text not the integer of 5. This is a semantic error <br> Third Error: Found in caesarEncrypt the result should be cipher text instead of the plain_alphabet variable. This is a semantic error. <br> Fourth Error: Found in caesarEncrypt the forloop is supposed to be set to Plaintext for the 'to' section. This is a syntax error. <br> Fifth Error: Found in caesarDecrypt, the result is supposed to result with plaintext instead of ciphertext. This is a semantic error.</p>
+                    </div>
+            </div>
+            <div>
+                <h2 class="subunit"> 6.9 - Impacts of CS: Cryptography and the Government </h2>
+                <div class="questionAnswer">
+                        <h3 class="question">1. What does it mean to say that the government would like to have a back door to the encrypted data on a mobile phone?</h2>
+                        <p class="answer"> In otherwords, the government would like to have an easy access to the security of data within a mobile phone by bypassing it through the "backdoor".</p>
+                        <h3 class="question">2. What are the main legal and ethical reasons for letting the government have a back door?</h2>
+                        <p class="answer"> The main legal and ethical reasons for letting the government have a backdoor is national security and safety against terrorism or other form of mass harm to the public.</p>
+                        <h3 class="question">3. What are the main legal and ethical reasons against letting the government have a back door?</h2>
+                        <p class="answer"> The main legal and ethical reasons against letting the governemnt have a back door is the infringement of the individual's privacy which can lead to government exploitation of such data. The government can use peoples data to arrest them for issues like drug possession, etc. </p>
+                        <h3 class="question">4. Do you think Apple should abide by the Court’s decision and unlock the mobile phone in the San Bernardino case? Explain.</h2>
+                        <p class="answer"> I think in situations like this the government should have access to the mobile phone in the San Bernardino case. I think the government should have access to an iPhone's data only in situations of mass shootings, terrorism, or any large scale incident that threatens the saftey of the general public or the nation. The governmentment should have a one time key of some sort to access only the device desired.</p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
